@@ -5,15 +5,18 @@
 ## 1. About the study
 Rapid urbanisation in the global south has often introduced substantial and rapid uncontrolled Land Use and Land Cover changes (LULC), considerably affecting the Land Surface Temperature (LST) patterns. Understanding the relationship between LULC changes and LST is essential to mitigate such effects, considering the urban heat island (UHI). This study aims to elucidate the spatiotemporal variations and alterations of LST in urban areas compared to LULC changes. The study focused on a peripheral urban area of Phnom Penh (Cambodia) undergoing rapid urban development. Using Landsat images from 2000 to 2021, the analysis employed an exploratory time-series analysis of LST. The study revealed noticeable variability in LST (20 to 69°C), predominantly influenced by seasonal variability and LULC changes. The study also provided insights into how LST varies within different LULCs at the exact spatial locations. These changes in LST did not manifest uniformly but displayed site-specific responses to LULC changes. This study accounts for changing land surfaces' complex physical energy interaction over time. The methodology offers a replicable model for other similarly structured, rapidly urbanised regions utilising novel semi-automatic processing of LST from Landsat images, potentially inspiring future research in various urban planning and monitoring contexts.
 
-## 2. Remote sensing data used on the study
-The study primarily used the Landsat data for LST estimation and calculating different
-spectral indices. This study used collection-1: Tier 1 data from Landsat 5, 7 and 8. Both
-surface reflectance (SR) and calibrated top-of-atmosphere (TOA) data were used. The images 
-in Phnom Penh is highly susceptible to the presence of cloud. Hence, a
-maximum of 60% cloud filter is applied. The cloud coverage of the selected images is
-presented in the following chart (Figure 1). Each dot represents an image that was
-considered for this study. After applying the cloud filter, 462 images were found from
-2000 to 2021
+## 2. Citation
+
+[will be added after publication]
+
+## 3. Remote sensing data used in the study
+We used collection-1: Tier 1 data from Landsat 5, 7 and 8. Both surface reflectance (SR)
+and top-of-atmosphere (TOA) data via Google Earth Engine image archive data are provided 
+by the NASA/USGS Landsat program. The images in the study area are highly susceptible to 
+the presence of clouds. Hence, a maximum of 60% cloud filter is applied. The cloud coverage 
+of the selected images is presented in the following chart (Figure 1). Each dot represents 
+an image that was considered for this study. After applying the cloud filter, 425 images from
+2000 to 2021 were selected for the study.
 
 Figure 1: [Cloud coverage in the Landsat images selected for the study](https://mohigeo33.github.io/lst_timeseries/cloud_cover.html). (Click on the link to view the interactive chart)
 
@@ -21,17 +24,17 @@ Figure 1: [Cloud coverage in the Landsat images selected for the study](https://
 
 Figure 2: Sensor-wise number of Landsat images for the period of 2000 to 2021 (60% maximum cloud filter applied)
 
-## 3. Study area
-Chbar Ampov District, located in the southeast region of Phnom Penh, Cambodia, is a rapidly developing urban area 
-with a mix of residential and commercial zones (City of Phnom Penh, 2020). The Mekong River borders the district to 
-the east, Meanchey District to the west, Kandal Province to the north, and Prek Pnov District to the south (Figure 3).
+## 4. Study area
 
+Chbar Ampov District, located in the southeast region of Phnom Penh, Cambodia, is a rapidly developing urban area 
+with a mix of residential and commercial zones. The Mekong River borders the district from the north, the Meanchey 
+District to the west, the Kien Svay District to the east and the Bassac River to the south.
 ![Location of the study area](study_area.png)
 
 Figure 3: Location of the study area
 
 
-## 4. LST estimation and spectral indices calculation
+## 5. LST estimation and spectral indices calculation
 Following steps were taken to estimate the LST and calculate the spectral indices from Landsat images (Figure 4)
 ![LST estimation and spectral indices calculation from Landsat images](lst_indices_calculation.png)
 
