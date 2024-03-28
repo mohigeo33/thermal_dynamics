@@ -58,7 +58,7 @@ Figure 5: [Calendar heatmaps of Maximum LST](https://mohigeo33.github.io/lst_tim
 Figure 6: [Calendar heatmaps of Minimum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MinLST.html). (Click on the link to view the interactive chart)
 
 ## 7. Notebook (Code) files and their description
-a) LST_Calculation.ipynb: Image pre-processing, Spectral indices calculation, LST estimation and statistical data extraction
+a) lst_time_series.py : Image pre-processing, Spectral indices calculation, LST estimation and statistical data extraction
 
 b) Statistical_analysis.ipynb: Descriptive statistics, trend and correlation analysis
 
@@ -66,6 +66,21 @@ Prerequisites:
 ```python
 import ee
 ee.Initialize(project='YourProjectName')
+```
+
+User input:
+```python
+# study period
+year_start = 2000
+year_end = 2021
+month_start = 1
+month_end = 12
+
+# temperature threshold
+t_threshold = 20
+
+# cloud filter
+max_cloud_cover = 60 # in percentage
 ```
 
 ## 8. Files needed to run the code externally (downloadable from the repository)
