@@ -45,7 +45,7 @@ Figure 2: Location of the study area
 
 ## 5. LST estimation and spectral indices calculation
 Following steps were taken to estimate the LST and calculate the spectral indices from Landsat images (Figure 4)
-![Graphical overview of the methodical overview.](revised_workflow.png.png)
+![Graphical overview of the methodical overview.](revised_workflow.png)
 
 Figure 3: Graphical overview of the methodical overview.
 
