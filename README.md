@@ -85,7 +85,7 @@ max_cloud_cover = 60 # in percentage
 ```
 
 ## 8. Files needed to run the code externally (downloadable from the repository)
-b) cor_point.csv: the csv files required for statistical analysis
+b) cor_point.csv: the CSV file required for performing the same correlation analysis as the study
 
 ## 9. Remarks
 This code is created for research purposes. Upon use, please provide appropriate references.
