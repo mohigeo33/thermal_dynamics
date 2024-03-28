@@ -44,7 +44,7 @@ Figure 2: Location of the study area
 
 
 ## 5. LST estimation and spectral indices calculation
-Following steps were taken to estimate the LST and calculate the spectral indices from Landsat images (Figure 4)
+The following steps were taken to estimate the LST and calculate the spectral indices from Landsat images (Figure 4)
 ![Graphical overview of the methodical overview.](revised_workflow.png)
 
 Figure 3: Graphical overview of the methodical overview.
@@ -58,9 +58,7 @@ Figure 5: [Calendar heatmaps of Maximum LST](https://mohigeo33.github.io/lst_tim
 Figure 6: [Calendar heatmaps of Minimum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MinLST.html). (Click on the link to view the interactive chart)
 
 ## 7. Notebook (Code) files and their description
-a) lst_time_series.py : Image pre-processing, Spectral indices calculation, LST estimation and statistical data extraction
-
-b) Statistical_analysis.ipynb: Descriptive statistics, trend and correlation analysis
+lst_time_series.py: Image pre-processing, Spectral indices calculation, LST estimation and statistical data extraction
 
 Prerequisites:
 ```python
@@ -81,12 +79,13 @@ t_threshold = 20
 
 # cloud filter
 max_cloud_cover = 60 # in percentage
+
+#AOI
+# add your study area here
 ```
 
 ## 8. Files needed to run the code externally (downloadable from the repository)
-a) AOI.zip: the shapefile for area of interest
-
-b) CSV files.zip: the csv files required for statistical analysis
+b) cor_point.csv: the csv files required for statistical analysis
 
 ## 9. Remarks
-This code is created for research purposes. Upon use please provide appropriate references.
+This code is created for research purposes. Upon use, please provide appropriate references.
