@@ -1,4 +1,4 @@
-# Land surface temperature dynamics in a changing landscape: A time series analysis of land surface temperature data in Google Earth Engine
+# Spatiotemporal Analysis of Land Surface Temperature in Re-sponse to Land Use and Land Cover Changes: A Remote Sens-ing Approach
 
 ***[Gulam Mohiuddin](https://www.linkedin.com/in/mohigeo33/)***, ***Jan-Peter Mund***
 
