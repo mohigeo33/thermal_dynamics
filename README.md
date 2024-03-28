@@ -40,14 +40,14 @@ with a mix of residential and commercial zones. The Mekong River borders the dis
 District to the west, the Kien Svay District to the east and the Bassac River to the south.
 ![Location of the study area](study_area.png)
 
-Figure 3: Location of the study area
+Figure 2: Location of the study area
 
 
 ## 5. LST estimation and spectral indices calculation
 Following steps were taken to estimate the LST and calculate the spectral indices from Landsat images (Figure 4)
-![LST estimation and spectral indices calculation from Landsat images](lst_indices_calculation.png)
+![Graphical overview of the methodical overview.](revised_workflow.png.png)
 
-Figure 4: LST estimation and spectral indices calculation from Landsat images
+Figure 3: Graphical overview of the methodical overview.
 
 ## 5. Highlighted results
 
