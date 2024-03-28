@@ -3,7 +3,19 @@
 ***[Gulam Mohiuddin](https://www.linkedin.com/in/mohigeo33/)***, ***Jan-Peter Mund***
 
 ## 1. About the study
-Rapid urbanisation in the global south has often introduced substantial and rapid uncontrolled Land Use and Land Cover changes (LULC), considerably affecting the Land Surface Temperature (LST) patterns. Understanding the relationship between LULC changes and LST is essential to mitigate such effects, considering the urban heat island (UHI). This study aims to elucidate the spatiotemporal variations and alterations of LST in urban areas compared to LULC changes. The study focused on a peripheral urban area of Phnom Penh (Cambodia) undergoing rapid urban development. Using Landsat images from 2000 to 2021, the analysis employed an exploratory time-series analysis of LST. The study revealed noticeable variability in LST (20 to 69°C), predominantly influenced by seasonal variability and LULC changes. The study also provided insights into how LST varies within different LULCs at the exact spatial locations. These changes in LST did not manifest uniformly but displayed site-specific responses to LULC changes. This study accounts for changing land surfaces' complex physical energy interaction over time. The methodology offers a replicable model for other similarly structured, rapidly urbanised regions utilising novel semi-automatic processing of LST from Landsat images, potentially inspiring future research in various urban planning and monitoring contexts.
+Rapid urbanisation in the global south has often introduced substantial and rapid uncontrolled Land Use 
+and Land Cover changes (LULC), considerably affecting the Land Surface Temperature (LST) patterns. 
+Understanding the relationship between LULC changes and LST is essential to mitigate such effects, 
+considering the urban heat island (UHI). This study aims to elucidate the spatiotemporal variations 
+and alterations of LST in urban areas compared to LULC changes. The study focused on a peripheral urban 
+area of Phnom Penh (Cambodia) undergoing rapid urban development. Using Landsat images from 2000 to 2021, 
+the analysis employed an exploratory time-series analysis of LST. The study revealed noticeable variability 
+in LST (20 to 69°C), predominantly influenced by seasonal variability and LULC changes. The study also 
+provided insights into how LST varies within different LULCs at the exact spatial locations. These changes
+in LST did not manifest uniformly but displayed site-specific responses to LULC changes. This study accounts
+for changing land surfaces' complex physical energy interaction over time. The methodology offers a replicable 
+model for other similarly structured, rapidly urbanised regions utilising novel semi-automatic processing of LST 
+from Landsat images, potentially inspiring future research in various urban planning and monitoring contexts.
 
 ## 2. Citation
 
@@ -13,16 +25,13 @@ Rapid urbanisation in the global south has often introduced substantial and rapi
 We used collection-1: Tier 1 data from Landsat 5, 7 and 8. Both surface reflectance (SR)
 and top-of-atmosphere (TOA) data via Google Earth Engine image archive data are provided 
 by the NASA/USGS Landsat program. The images in the study area are highly susceptible to 
-the presence of clouds. Hence, a maximum of 60% cloud filter is applied. The cloud coverage 
-of the selected images is presented in the following chart (Figure 1). Each dot represents 
+the presence of clouds. Hence, a maximum of 60% cloud filter is applied. Each dot represents 
 an image that was considered for this study. After applying the cloud filter, 425 images from
-2000 to 2021 were selected for the study.
+2000 to 2021 were selected for the study (Figure 1).
 
-Figure 1: [Cloud coverage in the Landsat images selected for the study](https://mohigeo33.github.io/lst_timeseries/cloud_cover.html). (Click on the link to view the interactive chart)
+![Distribution of selected 425 images based on the day of the year and Landsat satellite type.](data_used_in_study.png)
 
-![Sensor-wise number of Landsat images for the period of 2000 to 2021](number_of_images.png)
-
-Figure 2: Sensor-wise number of Landsat images for the period of 2000 to 2021 (60% maximum cloud filter applied)
+Figure 1: Distribution of selected 425 images based on the day of the year and Landsat satellite type.
 
 ## 4. Study area
 
