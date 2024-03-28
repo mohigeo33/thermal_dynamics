@@ -63,7 +63,7 @@ a) LST_Calculation.ipynb: Image pre-processing, Spectral indices calculation, LS
 b) Statistical_analysis.ipynb: Descriptive statistics, trend and correlation analysis
 
 Prerequisites:
-```
+```python
 import ee
 ee.Initialize(project='YourProjectName')
 ```
