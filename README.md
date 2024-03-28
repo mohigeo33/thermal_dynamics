@@ -49,38 +49,29 @@ Following steps were taken to estimate the LST and calculate the spectral indice
 
 Figure 3: Graphical overview of the methodical overview.
 
-## 5. Highlighted results
+## 6. Highlighted results
 
-Figure 5: [Calendar heatmaps of Mean LST](https://mohigeo33.github.io/lst_timeseries/calendar_MeanLST.html). (Click on the link to view the interactive chart)
+Figure 4: [Calendar heatmaps of Mean LST](https://mohigeo33.github.io/lst_timeseries/calendar_MeanLST.html). (Click on the link to view the interactive chart)
 
-Figure 6: [Calendar heatmaps of Maximum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MaxLST.html). (Click on the link to view the interactive chart)
+Figure 5: [Calendar heatmaps of Maximum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MaxLST.html). (Click on the link to view the interactive chart)
 
-Figure 7: [Calendar heatmaps of Minimum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MinLST.html). (Click on the link to view the interactive chart)
+Figure 6: [Calendar heatmaps of Minimum LST](https://mohigeo33.github.io/lst_timeseries/calendar_MinLST.html). (Click on the link to view the interactive chart)
 
-![Annual LST range (2000 - 2021](Annual_LST_range.png)
-
-Figure 8: Annual LST range (2000 - 2021)
-
-![Warmth score](warmth_score.png)
-
-Figure 9: Number of warmer months per year in LST categories
-(The height of each bar represents the warmth score for respective years.)
-
-Figure 10: [Total time series of minimum, mean & maximum LST (2000 - 2021)](https://mohigeo33.github.io/lst_timeseries/LST_trend.html). (Click on the link to view the interactive chart)
-
-![Correlation matrix](correlation_matrix.png)
-
-Figure 11: Correlation matrix between LST, IBI, MNDWI & NDVI
-
-## 6. Notebook (Code) files and their description
+## 7. Notebook (Code) files and their description
 a) LST_Calculation.ipynb: Image pre-processing, Spectral indices calculation, LST estimation and statistical data extraction
 
 b) Statistical_analysis.ipynb: Descriptive statistics, trend and correlation analysis
 
-## 7. Files needed to run the code externally (downloadable from the repository)
+Prerequisites:
+```
+import ee
+ee.Initialize(project='YourProjectName')
+```
+
+## 8. Files needed to run the code externally (downloadable from the repository)
 a) AOI.zip: the shapefile for area of interest
 
 b) CSV files.zip: the csv files required for statistical analysis
 
-## 8. Remarks
+## 9. Remarks
 This code is created for research purposes. Upon use please provide appropriate references.
