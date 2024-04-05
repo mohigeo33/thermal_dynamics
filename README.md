@@ -89,4 +89,5 @@ b) cor_point.csv: the CSV file required for performing the same correlation anal
 
 ## 9. Remarks
 This code is created for research purposes. Upon use, please provide appropriate references:
+
 Mohiuddin, G.; Mund, J.-P. Spatiotemporal Analysis of Land Surface Temperature in Response to Land Use and Land Cover Changes: A Remote Sensing Approach. Remote Sens. 2024, 16, 1286. https://doi.org/10.3390/rs16071286
